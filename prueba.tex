@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[spanish]{babel}
+\title{Apuntes de Programación Lineal}
+\author{Israel Mejia}
+
+\begin{document}
+
+
+
+\maketitle
+\tableofcontents
+\section{Introducción}
+
+
+La forma estándar de un problema de programción lineal es:
+Dados una matriz $A$ y vectores $b,c$, maximizar $c^Tx$ sujeto a
+$Ax\leq b$.
+
+Variables de Holgura.
+
+Las variables de holgura permiten determiar los excedentes de las
+restricciones que podrían ser empleados en otros fines sin que la
+solción óptima se altere.
+Las variables de holgura permiten convertir las desigualdades en
+igualdades
+
+
+\begin{tabular}{|c|c|c|}
+  &A&B\\
+  \hline
+  Maquina 1&1&2\\
+  \hline
+  Maquina 2&1&1
+
+\end{tabular}
+\begin{equation*}
+  \label{eq:1}
+ A= \begin{pmatrix}
+    0&1&2\\
+    1&5&6
+  \end{pmatrix}
+  \begin{pmatrix}
+    1&2\\
+    3&4\\
+    3&7
+  \end{pmatrix}
+\end{equation*}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
