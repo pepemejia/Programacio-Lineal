@@ -1,0 +1,68 @@
+
+
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+
+
+\title{Método Simplex}
+\author{Israel}
+\date{\today}
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+El método simplex es un algoritmo para resolver un problema de
+programacion lineal fue inventado por George Dantzing en el año de
+1946.
+
+\section{Ejemplo}
+\label{sec:ejemplo}
+
+
+\begin{equation*}
+  
+  \begin{aligned}
+   \text{Maximizar} \quad & 2x_1+x_2 \\
+   \text{Sujeto a} \quad &
+    
+    \begin{aligned}
+      2x_2+3x_1 & \leq 10 \\
+      5x_1 + x_2 & \leq 8 \\
+      x_1,x_2 & \geq 0
+  \end{aligned}
+ \end{aligned}
+\end{equation*}
+
+Agregamos las variables de holgura para pasar el problema a su forma simplex
+
+\begin{equation*}
+  
+    \begin{aligned}
+      2x_2+3x_1+x_3 & = 10 \\
+      5x_1 + x_2 + x_4 & = 8 \\
+      x_1,x_2,x_3,x_4 & \geq 0
+ \end{aligned}
+\end{equation*}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
